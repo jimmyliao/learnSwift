@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A58FD2B31AD3DB9400D4ED1D /* IMFLoggerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FD2B21AD3DB9400D4ED1D /* IMFLoggerExtension.swift */; };
 		A5B2C6161AD37AAB00AD4D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C6151AD37AAB00AD4D82 /* AppDelegate.swift */; };
 		A5B2C6181AD37AAB00AD4D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C6171AD37AAB00AD4D82 /* ViewController.swift */; };
 		A5B2C61B1AD37AAB00AD4D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B2C6191AD37AAB00AD4D82 /* Main.storyboard */; };
 		A5B2C61D1AD37AAB00AD4D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B2C61C1AD37AAB00AD4D82 /* Images.xcassets */; };
 		A5B2C6201AD37AAB00AD4D82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B2C61E1AD37AAB00AD4D82 /* LaunchScreen.xib */; };
 		A5B2C62C1AD37AAB00AD4D82 /* NKParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C62B1AD37AAB00AD4D82 /* NKParkingTests.swift */; };
+		F3932D1A5865F142B2100BE9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE657383927EA12ED31B86DF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87DBF81F4B8456FFD3C17D1B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A58FD2B11AD3D92200D4ED1D /* NKParking-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NKParking-Bridging-Header.h"; sourceTree = "<group>"; };
+		A58FD2B21AD3DB9400D4ED1D /* IMFLoggerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFLoggerExtension.swift; sourceTree = "<group>"; };
 		A5B2C6101AD37AAB00AD4D82 /* NKParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B2C6141AD37AAB00AD4D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B2C6151AD37AAB00AD4D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,8 @@
 		A5B2C6251AD37AAB00AD4D82 /* NKParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKParkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B2C62A1AD37AAB00AD4D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B2C62B1AD37AAB00AD4D82 /* NKParkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKParkingTests.swift; sourceTree = "<group>"; };
+		CE657383927EA12ED31B86DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F333498E614C32A594A136 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3932D1A5865F142B2100BE9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +70,8 @@
 				A5B2C6121AD37AAB00AD4D82 /* NKParking */,
 				A5B2C6281AD37AAB00AD4D82 /* NKParkingTests */,
 				A5B2C6111AD37AAB00AD4D82 /* Products */,
+				ADCD581538BBD908DA3DA63A /* Pods */,
+				ADA13C190421B267A11CA7A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +93,7 @@
 				A5B2C61C1AD37AAB00AD4D82 /* Images.xcassets */,
 				A5B2C61E1AD37AAB00AD4D82 /* LaunchScreen.xib */,
 				A5B2C6131AD37AAB00AD4D82 /* Supporting Files */,
+				A58FD2B11AD3D92200D4ED1D /* NKParking-Bridging-Header.h */,
 			);
 			path = NKParking;
 			sourceTree = "<group>";
@@ -90,6 +101,7 @@
 		A5B2C6131AD37AAB00AD4D82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A58FD2B21AD3DB9400D4ED1D /* IMFLoggerExtension.swift */,
 				A5B2C6141AD37AAB00AD4D82 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +124,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ADA13C190421B267A11CA7A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE657383927EA12ED31B86DF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADCD581538BBD908DA3DA63A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9F333498E614C32A594A136 /* Pods.debug.xcconfig */,
+				87DBF81F4B8456FFD3C17D1B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5B2C62F1AD37AAB00AD4D82 /* Build configuration list for PBXNativeTarget "NKParking" */;
 			buildPhases = (
+				1F4BF121484F98157A6F96BE /* Check Pods Manifest.lock */,
 				A5B2C60C1AD37AAB00AD4D82 /* Sources */,
 				A5B2C60D1AD37AAB00AD4D82 /* Frameworks */,
 				A5B2C60E1AD37AAB00AD4D82 /* Resources */,
+				6BB88A8279A67889C46EE01B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +238,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F4BF121484F98157A6F96BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB88A8279A67889C46EE01B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5B2C60C1AD37AAB00AD4D82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +278,7 @@
 			files = (
 				A5B2C6181AD37AAB00AD4D82 /* ViewController.swift in Sources */,
 				A5B2C6161AD37AAB00AD4D82 /* AppDelegate.swift in Sources */,
+				A58FD2B31AD3DB9400D4ED1D /* IMFLoggerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +358,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,6 +395,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -336,21 +403,25 @@
 		};
 		A5B2C6301AD37AAB00AD4D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F333498E614C32A594A136 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NKParking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NKParking/NKParking-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		A5B2C6311AD37AAB00AD4D82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DBF81F4B8456FFD3C17D1B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NKParking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NKParking/NKParking-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +478,7 @@
 				A5B2C6311AD37AAB00AD4D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5B2C6321AD37AAB00AD4D82 /* Build configuration list for PBXNativeTarget "NKParkingTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +487,7 @@
 				A5B2C6341AD37AAB00AD4D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

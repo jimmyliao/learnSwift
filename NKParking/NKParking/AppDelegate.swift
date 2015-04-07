@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // initialize SDK with IBM Bluemix application ID and route
+        let backendRoute = "https://nkparking.mybluemix.net";
+        let backendGuid = "e2d30c26-703e-4e0e-989a-b4e7b65fe06e";
+        IMFClient.sharedInstance().initializeWithBackendRoute(backendRoute, backendGUID: backendGuid)
+        
         return true
     }
 

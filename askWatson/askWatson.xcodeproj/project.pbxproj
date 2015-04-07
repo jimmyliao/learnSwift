@@ -36,6 +36,7 @@
 		A58449431ACD504A0042A93E /* askWatsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = askWatsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58449481ACD504A0042A93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58449491ACD504A0042A93E /* askWatsonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = askWatsonTests.swift; sourceTree = "<group>"; };
+		A58FD2AE1AD3D8BD00D4ED1D /* askWatson-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "askWatson-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +84,10 @@
 				A584493A1ACD504A0042A93E /* Images.xcassets */,
 				A584493C1ACD504A0042A93E /* LaunchScreen.xib */,
 				A58449311ACD504A0042A93E /* Supporting Files */,
+				A58FD2AE1AD3D8BD00D4ED1D /* askWatson-Bridging-Header.h */,
 			);
 			path = askWatson;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		A58449311ACD504A0042A93E /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -293,6 +295,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,6 +332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -338,9 +342,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = askWatson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "askWatson/askWatson-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +355,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = askWatson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "askWatson/askWatson-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +416,7 @@
 				A584494F1ACD504A0042A93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A58449501ACD504A0042A93E /* Build configuration list for PBXNativeTarget "askWatsonTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +425,7 @@
 				A58449521ACD504A0042A93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
